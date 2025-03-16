@@ -11,5 +11,12 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "routes": [
+    {
+      "pattern": "lofy.app",
+      "custom_domain": true,
+      "zone_name": "lofy.app"
+    }
+  ]
 }
